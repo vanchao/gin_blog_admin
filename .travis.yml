@@ -4,10 +4,9 @@ php:
     - 7.1
 
 install:
-    - cp .env .env.testing 
+    - cp .env.testing .env  
     - composer self-update
     - composer install --no-interaction --prefer-dist --no-suggest
 
 script:
     - vendor/phpunit/phpunit/phpunit
-
