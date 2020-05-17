@@ -4,7 +4,7 @@ php:
     - 7.1
 
 install:
-    - cp .env.testing .env
+    - cp .env .env.testing 
     - composer self-update
     - composer install --no-interaction --prefer-dist --no-suggest
 
