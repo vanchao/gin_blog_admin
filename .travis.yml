@@ -8,4 +8,4 @@ install:
     - composer install --no-interaction --prefer-dist --no-suggest
 
 script:
-    - ./vendor/phpunit/phpunit/phpunit
+    - vendor/phpunit/phpunit/phpunit
