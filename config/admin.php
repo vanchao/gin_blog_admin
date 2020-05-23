@@ -11,7 +11,8 @@ return [
     | login page.
     |
     */
-    'name' => 'Laravel-admin',
+//    'name' => 'Laravel-admin',
+    'name' => '管理后台',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +23,8 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<b>Laravel</b> admin',
+//    'logo' => '<b>Laravel</b> admin',
+    'logo' => '<b>管理后台</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -34,7 +36,8 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>La</b>',
+//    'logo-mini' => '<b>La</b>',
+    'logo-mini' => '<b>后台</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +88,8 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'Admin',
+//    'title' => 'Admin',
+    'title' => '管理后台',
 
     /*
     |--------------------------------------------------------------------------
